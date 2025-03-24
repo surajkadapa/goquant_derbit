@@ -1,0 +1,130 @@
+[TIME] Access Token Request took 441.443931 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=USDT) took 437.826843 ms
+[TIME] Buy Order took 440.807441 ms
+[TIME] Place Sell Order took 441.396619 ms
+[TIME] Market Data Fetch took 440.898825 ms
+[TIME] Get Positions took 583.416566 ms
+2
+[TIME] Access Token Request took 413.921934 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=USDT) took 575.610267 ms
+[TIME] Buy Order took 415.358545 ms
+[TIME] Place Sell Order took 612.161670 ms
+[TIME] Market Data Fetch took 564.206905 ms
+[TIME] Get Positions took 462.865237 ms
+[TIME] Access Token Request took 706.465876 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=USDT) took 402.774557 ms
+[TIME] Buy Order took 458.803590 ms
+[TIME] Place Sell Order took 446.023772 ms
+[TIME] Market Data Fetch took 407.407291 ms
+[TIME] Get Positions took 403.431543 ms
+[TIME] Access Token Request took 432.462483 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=USDT) took 442.132742 ms
+[TIME] Buy Order took 404.116386 ms
+[TIME] Place Sell Order took 445.093590 ms
+[TIME] Market Data Fetch took 416.429581 ms
+[TIME] Get Positions took 589.273399 ms
+[TIME] Access Token Request took 433.804789 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=BTC) took 429.924188 ms
+[TIME] Buy Order took 561.810527 ms
+[TIME] Place Sell Order took 409.385001 ms
+[TIME] Market Data Fetch took 447.048184 ms
+[TIME] Access Token Request took 424.907801 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=BTC) took 418.488914 ms
+[TIME] Buy Order took 430.773578 ms
+[TIME] Place Sell Order took 444.753125 ms
+[TIME] Market Data Fetch took 442.630177 ms
+[TIME] Get Positions took 580.195004 ms
+[TIME] Access Token Request took 461.064781 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=BTC) took 469.668676 ms
+[TIME] Buy Order took 435.076874 ms
+[TIME] Place Sell Order took 433.704333 ms
+[TIME] Modify Order took 575.270381 ms
+[TIME] Cancel Order took 598.106010 ms
+[TIME] Market Data Fetch took 408.485680 ms
+[TIME] Get Positions took 479.816373 ms
+[TIME] Access Token Request took 438.103605 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=BTC) took 407.552587 ms
+[TIME] Buy Order took 468.574220 ms
+[TIME] Place Sell Order took 433.724358 ms
+[TIME] Modify Order took 410.470920 ms
+[TIME] Cancel Order took 439.334662 ms
+[TIME] Market Data Fetch took 422.844220 ms
+[TIME] Get Positions took 455.656933 ms
+[TIME] Access Token Request took 410.093153 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=BTC) took 408.840269 ms
+[TIME] Buy Order took 444.545090 ms
+[TIME] Place Sell Order took 410.741161 ms
+[TIME] Modify Order took 442.477333 ms
+[TIME] Cancel Order took 415.347883 ms
+[TIME] Market Data Fetch took 564.160158 ms
+[TIME] Get Positions took 407.231646 ms
+[TIME] Access Token Request took 407.265164 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=BTC) took 429.311993 ms
+[TIME] Buy Order took 432.213526 ms
+[TIME] Place Sell Order took 445.876022 ms
+[TIME] Modify Order took 429.047869 ms
+[TIME] Cancel Order took 405.465860 ms
+[TIME] Market Data Fetch took 429.526636 ms
+[TIME] Get Positions took 577.795338 ms
+[TIME] Access Token Request took 448.082193 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=BTC) took 441.308069 ms
+[TIME] Buy Order took 442.880812 ms
+[TIME] Place Sell Order took 463.230807 ms
+[TIME] Modify Order took 480.335125 ms
+[TIME] Cancel Order took 583.547253 ms
+[TIME] Market Data Fetch took 413.485253 ms
+[TIME] Get Positions took 426.763610 ms
+[TIME] Access Token Request took 441.059908 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=BTC) took 445.447143 ms
+[TIME] Buy Order took 410.561405 ms
+[TIME] Place Sell Order took 447.249106 ms
+[TIME] Modify Order took 406.827704 ms
+[TIME] Cancel Order took 430.030397 ms
+[TIME] Market Data Fetch took 425.651166 ms
+[TIME] Get Positions took 407.262859 ms
+[TIME] Access Token Request took 460.066264 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=BTC) took 475.174472 ms
+[TIME] Buy Order took 437.413286 ms
+[TIME] Place Sell Order took 429.408755 ms
+[TIME] Modify Order took 437.083724 ms
+[TIME] Cancel Order took 445.058375 ms
+[TIME] Access Token Request took 471.453563 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=BTC) took 440.012114 ms
+[TIME] Buy Order took 468.244150 ms
+[TIME] Place Sell Order took 415.078914 ms
+[TIME] Modify Order took 555.907897 ms
+[TIME] Cancel Order took 565.684708 ms
+[TIME] Market Data Fetch took 443.586247 ms
+[TIME] Get Positions took 566.228940 ms
+[TIME] Access Token Request took 443.649309 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=BTC) took 445.726856 ms
+[TIME] Buy Order took 464.364626 ms
+[TIME] Place Sell Order took 579.779421 ms
+[TIME] Modify Order took 427.010906 ms
+[TIME] Cancel Order took 430.957254 ms
+[TIME] Market Data Fetch took 434.601184 ms
+[TIME] Get Positions took 433.910798 ms
+[TIME] Access Token Request took 423.155192 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=BTC) took 586.312225 ms
+[TIME] Buy Order took 428.861769 ms
+[TIME] Place Sell Order took 626.669298 ms
+[TIME] Modify Order took 439.861884 ms
+[TIME] Cancel Order took 560.659086 ms
+[TIME] Market Data Fetch took 401.943354 ms
+[TIME] Get Positions took 554.903888 ms
+[TIME] Access Token Request took 429.236787 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=BTC) took 586.833462 ms
+[TIME] Buy Order took 429.807521 ms
+[TIME] Place Sell Order took 587.560465 ms
+[TIME] Modify Order took 562.637923 ms
+[TIME] Cancel Order took 431.226553 ms
+[TIME] Market Data Fetch took 559.288753 ms
+[TIME] Get Positions took 445.947511 ms
+[TIME] Access Token Request took 438.774528 ms
+[TIME] API Call (/api/v2/private/get_account_summary?currency=BTC) took 485.785704 ms
+[TIME] Buy Order took 559.616441 ms
+[TIME] Place Sell Order took 421.644524 ms
+[TIME] Modify Order took 425.507672 ms
+[TIME] Cancel Order took 416.571772 ms
+[TIME] Market Data Fetch took 421.590132 ms
+[TIME] Get Positions took 430.165388 ms
