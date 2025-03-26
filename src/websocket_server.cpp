@@ -8,7 +8,6 @@ WebSocketServer::WebSocketServer() {
 
     wsServer_.set_open_handler(std::bind(&WebSocketServer::onOpen, this, std::placeholders::_1));
     wsServer_.set_close_handler(std::bind(&WebSocketServer::onClose, this, std::placeholders::_1));
-    wsServer_.set_message_handler(std::bind(&WebSocketServer::onMessage, this, std::placeholders::_1, std::placeholders::_2));
 }
 
 WebSocketServer::~WebSocketServer() {
@@ -59,26 +58,6 @@ void WebSocketServer::onClose(websocketpp::connection_hdl hdl) {
     std::cout << "Client Disconnected!" << std::endl;
     clients_.erase(hdl);
 }
-
-void WebSocketServer::onMessage(websocketpp::connection_hdl, WebsocketServerType::message_ptr msg) {
-    std::cout << "Received Message from Client: " << msg->get_payload() << std::endl;
-
-    if (msg->get_payload().find("subscribe") != std::string::npos) {
-        try {
-            json request = json::parse(msg->get_payload());
-            if (request.contains("instrument")) {
-                std::string instrument = request["instrument"];
-                subscribeToOrderbook(instrument);
-            } else {
-                subscribeToOrderbook("BTC-PERPETUAL");
-            }
-        } catch (const json::exception& e) {
-            std::cerr << "Failed to parse client message: " << e.what() << std::endl;
-            subscribeToOrderbook("BTC-PERPETUAL");
-        }
-    }
-}
-
 void WebSocketServer::connectToDeribit() {
     try {
         std::cout << "[INIT] Connecting to Deribit WebSocket API..." << std::endl;
@@ -264,7 +243,7 @@ void WebSocketServer::subscribeToOrderbook(const std::string& symbol) {
 
         std::string message = message_json.dump();
         
-        std::cout << "🔍 Sending Subscription Message: " << message << std::endl;
+        std::cout << " Sending Subscription Message: " << message << std::endl;
 
         websocketpp::lib::error_code ec;
         deribitClient_.send(conn, message, websocketpp::frame::opcode::text, ec);
